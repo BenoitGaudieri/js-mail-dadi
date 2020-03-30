@@ -8,10 +8,47 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+h1,
+h2 {
+    font-family: "Montserrat", sans-serif;
+}
+
+/* General */
+
 .hide {
     opacity: 0;
 }
 
 .show {
     opacity: 1;
+}
+
+.p--block {
+    display: block;
+}
+
+.btn {
+    padding: 10px;
+}
+
+/* Main */
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.box {
+    border-radius: 45px;
+    background-color: #f0ece1;
+    height: 300px;
+    width: 400px;
+    margin: 0 30px;
+    padding: 20px 25px;
+}
+
+input {
+    padding: 10px 0;
 }
